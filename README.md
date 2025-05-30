@@ -82,5 +82,16 @@ Some of the early images (low number) might not be easily or at all reproducible
 
 I like the current version, though, and I believe it provides the greatest scope for the possible shapes you can make. 
 
+# Developments
+I ran into some issues with the angle distortion being based off the dx value from the Lorenz equations. 
 
+Sometimes at extreme values, the angles will converge on 0 and 360 and get stuck in a static pattern or involve a static loop.
+
+I didn't like that, so I'm basing it off the dz value instead now and I haven't seen that happen anymore. 
+
+This does have a big impact on the resulting shape; you could potentially experiment with changing this with hard-coded variations.
+
+I think the dy value might be a good option as well, and dx still gave me some great results even with that occasional convergence. 
+
+# License
 This was just a fun pet project. I'm releasing it under the MIT license. 
