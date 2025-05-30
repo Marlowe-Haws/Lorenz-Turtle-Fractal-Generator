@@ -4,13 +4,13 @@ A fractal generator with many parameters to draw polygons with chaotic distortio
 
 This is a major advancement from my original turtle fractal generator. 
 
-I wanted to introduce an element of chaotic behavior to the fractal and I ended up get carried away with this idea.
+I wanted to introduce an element of chaotic behavior to the fractal, and I ended up getting carried away with this idea.
 
 The original source of chaos was derived from a set of Lorenz equations, which incrementally add to the angle of the polygons drawn.
 
 Then I multiplied this by the golden ratio for fun, and then I divided that by a large scalar to keep the change manageable.
 
-Then I added another variable that increments with each polygon and I fed that into a sine wave function.
+Then I added another variable that increments with each polygon, and I fed that into a sine wave function.
 
 Finally, I added these together and used modulo 180 on the sum to create an overall circular/spiral effect. 
 
