@@ -86,7 +86,7 @@ def draw_distorted_polygon(current_increment, sides, side, x_val, y_val, z_val):
         dx, dy, dz = lorenz(x_val, y_val, z_val)
         # We scale up the distortion by multiplying by the golden ratio.
         # You can also scale down with the divisor variable
-        angle_distortion = dx * ( (1 + math.sqrt(5)) / 2 )/golden_ratio_divisor
+        angle_distortion = dz * ( (1 + math.sqrt(5)) / 2 )/golden_ratio_divisor
         #print(f"angle_distortion: {angle_distortion}.")
         # This is the first distortion applied.
         distorted_angle = angle + angle_distortion
