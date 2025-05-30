@@ -66,9 +66,7 @@ Then you could increase the modulation magnitude to amplify the sine wave effect
 
 You can mix and match with different "concentrations of chaos" generated from these two main mechanisms. 
 
-Adjusting grouping sizes and number of sides of polygons and ranges of polygons drawn and angles of turns made and distance traveled, etc. etc.
-
-Can all have significant impacts on the resulting fractal. 
+Adjusting grouping sizes and number of sides of polygons and ranges of polygons drawn and angles of turns made and distance traveled, etc., etc. can all have significant impacts on the resulting fractal. 
 
 There's a ton of potential to make some crazy shapes  with subtle chaotic patterns that would be very hard to imitate. 
 
