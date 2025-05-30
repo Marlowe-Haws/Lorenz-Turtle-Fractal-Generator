@@ -25,19 +25,35 @@ We use the Tkinter interface to accept customizable values for the parameters.
 
 # Choose: 
     * Side length: length in pixels of the sides of polygons to be drawn.
+    
     * Min sides: minimum number of sides of polygons drawn.
+    
     * Max sides: maximum number of sides of polygons drawn, if different than min, 
+    
     will create all polygons in the range min-max number of sides.
-    * Grouping: how many polygons are drawn in a group (there will be turns and movement between groups).
+    
+    * Grouping: how many polygons are drawn in a group 
+    (there will be turns and movement between groups).
+    
     * Angle 1: Angle of left turn made after each polygon is drawn, before drawing the next polygon.
+    
     * Angle 2: Angle of left turn made after each group of polygons is drawn, before drawing the next group.
+    
     * Movement length: distance moved between drawing groups of polygons.
+    
     * Iterations: the number of groups drawn, effectively the total iterations. 
-    * Increment amount: value of increment, which will accumulate and be fed into the sine wave function to distort the angle. 
+    
+    * Increment amount: value of increment, which will accumulate,
+    and is fed into a sine wave function to distort the angle. 
+    
     * Golden ratio divisor: scalar value to reduce the magnitude of the golden ratio's effect on the Lorenz values.
     This is a divisor value, so you could enter a fraction to amplify instead. 
+    
     * Modulation magnitude: another scalar value to amplify or reduce the effect of the incremented value on the angle. 
-    * Lorenz multiplier: yet another scalar value to reduce the magnitude of the Lorenz effect on the angle (or increase if you so choose). 
+    
+    * Lorenz multiplier: yet another scalar value to reduce the magnitude of the Lorenz effect on the angle 
+    (or increase if you so choose). 
+    
 
 So basically what's going on is you have many different "angles" from which to go about distorting the angles of the polygons that are drawn.
 
