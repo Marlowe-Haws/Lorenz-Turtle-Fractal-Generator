@@ -29,7 +29,6 @@ We use the Tkinter interface to accept customizable values for the parameters.
     * Min sides: minimum number of sides of polygons drawn.
     
     * Max sides: maximum number of sides of polygons drawn, if different than min, 
-    
     will create all polygons in the range min-max number of sides.
     
     * Grouping: how many polygons are drawn in a group 
