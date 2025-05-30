@@ -87,15 +87,17 @@ def draw_distorted_polygon(current_increment, sides, side, x_val, y_val, z_val):
         # We scale up the distortion by multiplying by the golden ratio.
         # You can also scale down with the divisor variable
         angle_distortion = dx * ( (1 + math.sqrt(5)) / 2 )/golden_ratio_divisor
+        #print(f"angle_distortion: {angle_distortion}.")
         # This is the first distortion applied.
         distorted_angle = angle + angle_distortion
+        #print(f"distorted angle: {distorted_angle}.")
         # Then we pass the current incremented value to a sine wave function to make it less linear.
         # Then we multiply this by the modulation strength to minimize/maximize the effect.
         # We add this to the first distortion, then we use modulo 180 on this sum.
         # This keeps angles < 180, which encourages circular/spiral behavior.
         modulated_angle = (distorted_angle + modulation_strength * math.sin(math.radians(current_increment))) % 180
         # This lets us see the angles generated to understand the effects of tweaking parameters.
-        print(modulated_angle)
+        print(f"modulated angle: {modulated_angle}.")
 
         my_turtle.forward(side)
         my_turtle.left(modulated_angle)
