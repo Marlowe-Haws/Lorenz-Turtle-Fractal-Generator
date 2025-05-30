@@ -107,6 +107,10 @@ def draw_distorted_polygon(current_increment, sides, side, x_val, y_val, z_val):
         x += dx * lorenz_multiplier
         y += dy * lorenz_multiplier
         z += dz * lorenz_multiplier
+        # This part bounds the values to < 180, to prevent potential infinity scenarios. 
+        x = x % 180
+        y = y % 180
+        z = z % 180
 
 
 def draw_distorted_fractal(side, sides_min, sides_max, group, move, reps, increment):
