@@ -74,4 +74,13 @@ It's pretty fun! Enjoy!
 
 I also added parameters to adjust the starting x, y positions of the turtle to recenter images that veer off in some direction. 
 
+# Images
+
+I added a bunch of images that I've generated. This program went through a lot of phases of development.
+
+Some of the early images (low number) might not be easily or at all reproducible with the current version.
+
+I like the current version, though, and I believe it provides the greatest scope for the possible shapes you can make. 
+
+
 This was just a fun pet project. I'm releasing it under the MIT license. 
