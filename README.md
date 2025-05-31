@@ -74,24 +74,29 @@ It's pretty fun! Enjoy!
 
 I also added parameters to adjust the starting x, y positions of the turtle to recenter images that veer off in some direction. 
 
-# Images
+# Developments
+I ran into some issues with the angle distortion being based on the dx value from the Lorenz equations. 
 
+Sometimes, at extreme values, the angles converge on 0 and 360 and get stuck in a static pattern or involve a static loop.
+
+I didn't like that, so I'm basing it on the dz value instead now, and I haven't seen that happen anymore. 
+
+This does have a big impact on the resulting shapes; you could potentially experiment with changing this with hard-coded variations.
+
+I think the dy value might be a good option as well, and dx still gave me some great results even with that occasional convergence. 
+
+# Images
 I added a bunch of images that I've generated. This program went through a lot of phases of development.
 
 Some of the early images (low number) might not be easily or at all reproducible with the current version.
 
 I like the current version, though, and I believe it provides the greatest scope for the possible shapes you can make. 
 
-# Developments
-I ran into some issues with the angle distortion being based off the dx value from the Lorenz equations. 
+*Update*
+I added a new folder that shows the images I've created after modifying the program to distort the angle based on the dz value rather than the dx value.
 
-Sometimes at extreme values, the angles will converge on 0 and 360 and get stuck in a static pattern or involve a static loop.
+I might add another folder later with results based on the dy value. 
 
-I didn't like that, so I'm basing it off the dz value instead now and I haven't seen that happen anymore. 
-
-This does have a big impact on the resulting shape; you could potentially experiment with changing this with hard-coded variations.
-
-I think the dy value might be a good option as well, and dx still gave me some great results even with that occasional convergence. 
 
 # License
 This was just a fun pet project. I'm releasing it under the MIT license. 
