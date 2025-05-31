@@ -92,7 +92,7 @@ Some of the early images (low number) might not be easily or at all reproducible
 
 I like the current version, though, and I believe it provides the greatest scope for the possible shapes you can make. 
 
-*Update
+-Update-
 I added a new folder that shows the images I've created after modifying the program to distort the angle based on the dz value rather than the dx value.
 
 I might add another folder later with results based on the dy value. 
